@@ -21,7 +21,7 @@ if($mode == 'manage'){
     $tickets = array();
     fn_add_breadcrumb(__('uvdesk_tickets'));
     $user_data = fn_get_user_short_info($auth['user_id']);
-    if(isset($user_data['user_type']) && $user_data['user_type'] == 'C' && AREA == 'C'){
+    if(isset($user_data['user_type'])){
         $customer_id = json_decode(fn_uvdesk_get_customer_id($user_data['email']),true);
         if(isset($customer_id['customers'][0]['id'])){
             $_SESSION['uvdesk_customer'] = $customer_id['customers'][0];
@@ -195,7 +195,7 @@ if($mode == 'load_more'){
 }
 
 if($mode == 'create_ticket'){
-    fn_trusted_vars('ticket_message');
+    // fn_trusted_vars('ticket_message');
     fn_uvdesk_create_ticket();
     if(isset($auth['user_id']) && $auth['user_id'] == 0){
         $is_update = !empty($auth['user_id']);
@@ -306,7 +306,7 @@ if($mode == 'customer_create_ticket'){
         Registry::get('view')->assign('customer_info',$_SESSION['uvdesk_customer']);
     }elseif(isset($auth['user_id']) && $auth['user_id'] != 0 ){
         $user_data = fn_get_user_short_info($auth['user_id']);
-        if(isset($user_data['user_type']) && $user_data['user_type'] == 'C' && AREA == 'C'){
+        if(isset($user_data['user_type']) && AREA == 'C'){
             $customer_id = json_decode(fn_uvdesk_get_customer_id($user_data['email']),true);
             if(isset($customer_id['customers'][0]['id'])){
                 $_SESSION['uvdesk_customer'] = $customer_id['customers'][0];

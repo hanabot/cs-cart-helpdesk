@@ -229,7 +229,7 @@ if($mode == 'ticket_reply'){
 }
 
 if($mode == 'create_ticket'){
-    fn_trusted_vars('ticket_message');
+    // fn_trusted_vars('ticket_message');
     fn_uvdesk_create_ticket();
 }
 

@@ -17,7 +17,7 @@ License: GNU/GPL for more info see license.txt included with plugin License URI:
 Description 
 ------------------------------------
 
-**Cs-cart Uvdesk** : Uvdesk addon connect the uvdesk to cs-cart store. Admin and agents can manage all the tickets from CS-Cart admin panel. Customers create and manage the tickets from the frontend.
+**Cs-cart Uvdesk** : CS-Cart Helpdesk Ticket System integrates the UVdesk system to your CS-Cart store. This add-on allows store visitors or registered users to create tickets regarding their queries from the frontend itself. All the tickets can be viewed in the customer account at your storefront under the UVdesk Tickets option available in My Account section. Admin can easily manage the tickets from CS-Cart back-end as well as from UVdesk portal.
 
 
 ------------------------------------
@@ -25,25 +25,36 @@ Features
 ------------------------------------
 • Admin can manage all the tickets from the CS-Cart admin panel.
 
-• Admin can reply to the tickets.
+• Integrate UVdesk Helpdesk System with your CS-Cart Store
 
-• Admin can assign the agents to the ticket.
+• An easy & effective interaction between Admin and Buyers.
 
-• Admin can set the privlages for the agent.
+• A well-managed helpdesk system for your CS-Cart site
 
-• Admin can create ticket from the backend.
+• Absolutely Free of Cost Addon (Admin will have to sign up to UVdesk if he/she does not have an existing account)
 
-• Agents also manage the ticket from their admin panel.
+• Store visitors or registered users can raise ticket relating to any concern/issue/ inquiry.
 
-• Agent only see the assign tickets.
+• Guest customers get registered automatically after raising the ticket.
 
-• Agent also create the ticket if have the privlage to create ticket.
+• Customers can manage their tickets from the frontend.
 
-• Customer can create ticket from the frontend.
+• Store admin can manage all the tickets from the CS-Cart admin panel.
 
-• Customer can manage their tickets from the frontend.
+• Admin can reply to those tickets created by the buyer.
 
-• Customer can reply on the tickets from the frontend.
+• Admin can assign an agent to the ticket who will look after the customer issue.
+
+• Admin/Agent can create or delete or manage the tickets from CS-Cart backend as per the privilege assigned.
+
+• Admin/Assigned agent/Customers can add attachments to ticket replies.
+
+• The customer can add a collaborator to the ticket to keep the third party in the loop if needed.
+
+• Use Upgraded Uvdesk Plans to avail various other features.
+
+• Improves customer retention and brand image.
+
 ------------------------------------
 Frequently Asked Questions
 ------------------------------------
